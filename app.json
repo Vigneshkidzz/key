@@ -1,28 +1,14 @@
 {
   "expo": {
-    "name": "geo",
-    "slug": "geo",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
+    "name": "qwerty",
     "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "version": "1.0.0",
+    "slug": "qwerty",
+    "sdkVersion":"37.0.0",
     "ios": {
-      "supportsTablet": true
+    "bundleIdentifier": "com.qwerty.geo"},
+      "android": {
+      "package": "com.qwerty.geo"
     }
-  }
-}
+}}
+
